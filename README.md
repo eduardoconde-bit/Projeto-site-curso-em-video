@@ -8,4 +8,4 @@
  
  Rodando em <strong>mobile</strong> e <strong>desktop</strong> respectivamente:iphone: 🖥️:
  
- <img src="https://github.com/The-Programador/Projeto-site-curso-em-video/blob/main/images-readme/print-mobile-site.png" alt="print de site mobile" width="auto"  height="autopx"> <img src="https://github.com/The-Programador/Projeto-site-curso-em-video/blob/main/images-readme/print-site.png" alt="print de site desktop"  width="auto" height="auto">
+ <img src="https://github.com/The-Programador/Projeto-site-curso-em-video/blob/main/images-readme/print-mobile-site.png" alt="print de site mobile" width="250px"  height="400px"> <img src="https://github.com/The-Programador/Projeto-site-curso-em-video/blob/main/images-readme/print-site.png" alt="print de site desktop"  width="520px" height="400px">
