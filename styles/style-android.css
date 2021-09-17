@@ -93,7 +93,7 @@ img {
 }
 
 #content-main {
-    background-color: white;
+    background-color: #fff;
     margin: auto;
     max-width: 800px;
     padding: 10px;
@@ -186,6 +186,8 @@ div.video > iframe {
 
 .link-decoration { /*LINKS*/
     font-weight: bold;
+    background-color: var(--color1);
+    padding: 0px 5px;
 }
 
 .link-decoration::after {
