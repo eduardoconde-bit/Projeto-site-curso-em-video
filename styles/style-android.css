@@ -61,7 +61,7 @@ body {
 .navigator {
     background-color: var(--color5);
     padding: 10px 0px 10px 10px;
-    margin: -1px 0px 0px 0px;
+    margin: -1px 0 0;
 }
 
 .navigator > a {
@@ -151,7 +151,7 @@ div.video > iframe {
     background-color: var(--color0);
     padding: 10px;
     margin-top: 10px;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 5px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.600);
 }
 
@@ -174,8 +174,7 @@ div.video > iframe {
     list-style-position: inside;
     text-align: justify;
     columns: auto 2;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     max-width: 100%;
     /*Manipulações necessárias!*/
 }
@@ -187,7 +186,7 @@ div.video > iframe {
 .link-decoration { /*LINKS*/
     font-weight: bold;
     background-color: var(--color1);
-    padding: 0px 5px;
+    padding: 0 5px;
 }
 
 .link-decoration::after {
@@ -203,16 +202,23 @@ div.video > iframe {
     overflow: auto;
 }
 
-#page-footer p {
+.content-footer {
+    display: flex;
+    flex-direction: row;
+    margin: 18px 10% 0px 10%;
+    justify-content: center;
     color: white;
     text-align: center;
 }
 
-.content-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 18px 10% 0px 10%;
+@media screen and (min-width: 641px) {
+    #parag1 {
+        margin-right: 15px;
+    }
+
+    #parag2 {
+        margin-left: 15px;
+    }
 }
 
 @media screen and (max-width: 640px) {
